@@ -65,7 +65,7 @@ given before the table itself.
 
 A figure is added with:
 
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
+![Caption for BioHackrXiv logo figure](./model.png)
 
 # Other main section on your manuscript level 1
 
