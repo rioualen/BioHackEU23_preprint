@@ -1,28 +1,36 @@
 ---
-title: 'BioHackEU23 report: Template for the very long title'
-title_short: 'BioHackEU23 #26: unknown chemical substances'
+title: 'BioHackEU23 report: Synergising ELIXIR Resources for Training in Systems Biology
+'
+title_short: 'BioHackEU23 #32: Synergising ELIXIR Resources for Training in Systems Biology'
 tags:
-  - cheminformatics
-  - PubChem
-  - unknown chemical substances
+  - Systems Biology
+  - Ontologies
+  - Elixir
+  - (other...)
 authors:
   - name: First Author
+    orcid: 0000-0000-0000-0000
     affiliation: 1
-  - name: Last Author
+  - name: Middle Author
     orcid: 0000-0000-0000-0000
     affiliation: 2
+  - name: Last Author
+    orcid: 0000-0000-0000-0000
+    affiliation: 3
 affiliations:
   - name: First Affiliation
     index: 1
   - name: Second Affiliation
     index: 2
+  - name: Second Affiliation
+    index: 3
 date: 8 November 2023
 cito-bibliography: paper.bib
 event: BH23EU
 biohackathon_name: "BioHackathon Europe 2023"
 biohackathon_url:   "https://biohackathon-europe.org/"
 biohackathon_location: "Barcelona, Spain, 2023"
-group: Project 26
+group: Project 32
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackrxiv/publication-template
 # This is the short authors description that is used at the
