@@ -76,18 +76,18 @@ How can TeSS and bio.tools be connected through Bioschemas:
 * Use of/addition of SB-specific terms in EDAM (developers-dependent) 
 * Use of markup annotations provided by Bioschemas (content makers-dependent)
 
-![Figure 1. A. Draft ideas.](./Figures_report/Simple-link-EDAM-TeSS-BT-2.png)
+![Figure 1. A. Draft ideas.](./Figures_report/Simple-link-EDAM-TeSS-BT-2.png){ width=50% }
 
-![Figure 1. B. Draft ideas.](./Figures_report/Semantics-model-Herve.png)
+![Figure 1. B. Draft ideas.](./Figures_report/Semantics-model-Herve.png){ width=50% }
 
 ### Definition of use cases
 
 Systems biology courses and/or events, keywords, etc (Table 1)
 
-| Type of event | Event name                                                 | Original course url                                                                                                                                                                      | … |  |
-| ------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |  |
-| Course        | Systems biology: from large datasets to biological insight | [https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/](https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/) | … |  |
-| Course        | Integrative analysis of multi-omics data                   | [https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/](https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/)                           | … |  |
+| Type of event | Event name                                                 | Original course url                                                                                                                                                                      | … | … |
+| ------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - | - |
+| Course        | Systems biology: from large datasets to biological insight | [https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/](https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/) | … | … |
+| Course        | Integrative analysis of multi-omics data                   | [https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/](https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/)                           | … | … |
 
 Table 1. (from spreadsheet [here](https://docs.google.com/spreadsheets/d/1kE4rnoOxE1P28VdGh6CRqtC4jWQKKeSN/edit?usp=sharing&ouid=118442261765724734713&rtpof=true&sd=true))
 
@@ -102,6 +102,7 @@ Select ontologies: EDAM, SBO, MAMO …
 2. Populate the SB branch of the EDAM ontology 
     * List of terms to be added and basic attributes (description, URL, etc) (Table 2)
     * Synonyms to be added to existing terms
+    
 | Keyword                  | Concise definition | Sub-ontology in EDAM | Link to EDAM URI                                                                                                                                                           | Link to OLS URI1                                    | … |
 | ------------------------ | ------------------ | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | - |
 | data management          |                    | Topic                | [http://edamontology.org/topic_0091](http://edamontology.org/topic_0091)                                                                                                   | NA                                                  | … |
@@ -139,7 +140,7 @@ Table 3. Tools (from spreadsheet)
 
 > TO DO
 
-![Figure 4. Draft idea from BH final slides.](./Figures_report/Aim-example-Cristina.jpeg)
+![Figure 4. Draft idea from BH final slides.](./Figures_report/Aim-example-Cristina.png){ width=50% }
 
 ## Resources (software, repository, …)
 
