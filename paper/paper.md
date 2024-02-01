@@ -10,13 +10,13 @@ tags:
   - Bioschemas
   - (other...)
 authors:
-  - name: First Author
+  - name: Barbara Szomolay
     orcid: 0000-0000-0000-0000
     affiliation: 1
-  - name: Middle Author
+  - name: Claire Rioualen
     orcid: 0000-0000-0000-0000
     affiliation: 2
-  - name: Last Author
+  - name: Hervé Ménager
     orcid: 0000-0000-0000-0000
     affiliation: 3
 affiliations:
@@ -46,11 +46,7 @@ Systems biology (SB) is a new ELIXIR Community, utilizing different ELIXIR resou
 
 Most content in TeSS is sourced through automated aggregation (“scraping”) of external sources containing resources marked up with semantic metadata, like Bioschemas. Currently, TeSS cannot recognize references to bio.tools identifiers from a Bioschemas-annotated resource, so the number of resources linked to bio.tools is relatively low.
 
-In this project, TeSS’ Bioschemas parser will be extended to recognize bio.tools identifier references, and documentation produced advising training resource maintainers how they can add these references to their Bioschemas markup. In collaboration with TeSS and bio.tools, we will focus on selected SB disciplines from the priority areas of the SB Community to integrate and cross-link related ELIXIR products - training events, training materials, computational and bioinformatics tools, databases and services from the bio.tools registry.
-
-This will be achieved using suitable ontologies identified by the SB community and by careful curation of SB-related materials. We aim to extend this work to other ELIXIR products such as lists of trainers, related ELIXIR Innovation and Industry events and publications. This will serve as a pilot project leading to broader integration with other SB disciplines, and will be of interest to several other ELIXIR Communities.
-
-The short-term goal is to conduct a pilot study at the Biohackathon, the long-term goal is to extend the automated frame-work to other SB-related ELIXIR domains and services. (1) Adapting ontologies and explore ontology mappings (e.g., between EDAM and SBO), to annotate SB-related products by a set of controlled and relational vocabularies. (2) Using selected SB disciplines and related TeSS and bio.tools products (training events, training materials, computational, bioinformatics tools, databases, services), to integrate TeSS and bio.tools by extending TeSS’ Bioschemas parser. We will aim to explore: (3) Compliance with FAIR principles. (4) Extension to other ELIXIR resources.
+(...)
 
 Keywords: Systems Biology, Bio-Ontologies, FAIR science, (other...)
 
@@ -71,6 +67,7 @@ Proposed strategy:
 ## Biohackathon results
 
 ### Semantics model
+
 How can TeSS and bio.tools be connected through Bioschemas:
 
 * Use of/addition of SB-specific terms in EDAM (developers-dependent) 
@@ -78,15 +75,16 @@ How can TeSS and bio.tools be connected through Bioschemas:
 
 ![Figure 1. A. Draft ideas.](./Figures_report/Simple-link-EDAM-TeSS-BT-2.png){ width=50% }![Figure 1. B. Draft ideas.](./Figures_report/Semantics-model-Herve.png){ width=50% }
 
+Figure 1. A. Tools and training materials can be connected through the development of specific ontologies and the proper annotation of the related contents. B. The connection is possible through this semantic model. 
 
 ### Definition of use cases
 
 Systems biology courses and/or events, keywords, etc (Table 1)
 
-| Type | Name                                                 | Original course url                                                                                                                                                                      | … | … |
-| ------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - | - |
-| Course        | Systems biology: from large datasets to biological insight | [https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/](https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/) | … | … |
-| Course        | Integrative analysis of multi-omics data                   | [https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/](https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/)                           | … | … |
+| Type | Name                                                 | Original course url                                                                                                                                                                      | … |
+| ------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
+| Course        | Systems biology: from large datasets to biological insight | [https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/](https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/) | … |
+| Course        | Integrative analysis of multi-omics data                   | [https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/](https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/)                           | … |
 
 Table 1. (from spreadsheet [here](https://docs.google.com/spreadsheets/d/1kE4rnoOxE1P28VdGh6CRqtC4jWQKKeSN/edit?usp=sharing&ouid=118442261765724734713&rtpof=true&sd=true))
 
@@ -102,24 +100,24 @@ Select ontologies: EDAM, SBO, MAMO …
     * List of terms to be added and basic attributes (description, URL, etc) (Table 2)
     * Synonyms to be added to existing terms
     
-| Keyword                  | Concise definition | Sub-ontology in EDAM | Link to EDAM URI                                                                                                                                                           | Link to OLS URI1                                    | … |
+| Keyword                  | Def | SO in EDAM | EDAM URI                                                                                                                                                           | Link to OLS URI1                                    | … |
 | ------------------------ | ------------------ | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | - |
-| data management          |                    | Topic                | [http://edamontology.org/topic_0091](http://edamontology.org/topic_0091)                                                                                                   | NA                                                  | … |
-| dimensionality reduction |                    | Operation            | [https://edamontology.github.io/edam-browser/#http://edamontology.org/operation_3935](https://edamontology.github.io/edam-browser/#http://edamontology.org/operation_3935) | NCIT:C176231, OBI:0002587, OMIT:0001480, topic:3474 | … |
-| machine learning         |                    | Topic                | [https://edamontology.github.io/edam-browser/#http://edamontology.org/topic_3474](https://edamontology.github.io/edam-browser/#http://edamontology.org/topic_3474)         |                                                     | … |
-| deep learning            |                    | Topic                |                                                                                                                                                                            |                                                     | … |
-| data integration         | Process to join …  | Topic                |                                                                                                                                                                            |                                                     | … |
+| data mgt          |                    | Topic                | [http://edamontology.org/topic_0091](http://edamontology.org/topic_0091)                                                                                                   | NA                                                  | … |
+| dime reduction |                    | Operation            | [https://edamontology.github.io/edam-browser/#http://edamontology.org/operation_3935](https://edamontology.github.io/edam-browser/#http://edamontology.org/operation_3935) | NCIT:C176231, OBI:0002587, OMIT:0001480, topic:3474 | … |
+| ML         |                    | Topic                | [https://edamontology.github.io/edam-browser/#http://edamontology.org/topic_3474](https://edamontology.github.io/edam-browser/#http://edamontology.org/topic_3474)         |                                                     | … |
+| DL            |                    | Topic                |                                                                                                                                                                            |                                                     | … |
+| data intg         | Process to join …  | Topic                |                                                                                                                                                                            |                                                     | … |
 
 Table 2. (extract from spreadsheet [here](https://docs.google.com/spreadsheets/d/1kE4rnoOxE1P28VdGh6CRqtC4jWQKKeSN/edit?usp=sharing&ouid=118442261765724734713&rtpof=true&sd=true))
 
 
-![Figure 2. Draft idea from BH final slides.](./Figures_report/Links-EDAM-Bioschemas-Claire.png)
+![Figure 2. Draft idea from BH final slides.](./Figures_report/Links-EDAM-Bioschemas-Claire.png){width=70%}
 
 ### Gap identification in TeSS & bio.tools
 
 > TO DO
 
-![Figure 3. Draft idea from BH final slides.](./Figures_report/Links-BT-TeSS-Barbara.png)
+![Figure 3. Draft idea from BH final slides.](./Figures_report/Links-BT-TeSS-Barbara.png){width=70%}
 
 
 | Tools name | Bio.tools link                                             | Tool link                                                                                | … |
