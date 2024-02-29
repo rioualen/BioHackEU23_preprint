@@ -40,9 +40,6 @@ git_url: https://github.com/biohackrxiv/publication-template
 authors_short: First Author \emph{et al.}
 ---
 
-
-# BioHackEU23: Synergising ELIXIR Resources for Training in Systems Biology
-
 ## Project abstract {#project-abstract}
 
 Systems biology (SB) is a new ELIXIR Community, utilising different ELIXIR resources, such as the Training eSupport System (TeSS) and bio.tools, a registry of software tools and data resources for life sciences. One of the main initial objectives of the SB Community is to create a SB-themed domain hosted by TeSS, encompassing SB-related ELIXIR services and events, in a fully automated way.
@@ -116,10 +113,9 @@ How can TeSS and bio.tools be connected through Bioschemas:
 * Use of/addition of SB-specific terms in EDAM (developers-dependent) 
 * Use of markup annotations provided by Bioschemas (content makers-dependent)
 
+![Figure 1. A.](./Figures_report/Figure1A.png)
 
-![Figure 1. A.](./Figures_report/Figure1A.png)|![Figure 1.  B.](./Figures_report/Figure1B_Semantics-model-Herve.png)
--|-
-A|B
+![Figure 1. B.](./Figures_report/Figure1B_Semantics-model-Herve.png)
 
 **Figure 1.** A. Events and tools from TeSS and bio.tools could be connected through the implementation of Bioschemas markup and the use of the EDAM ontology, however the process is currently not straightforward. B. Detailed semantics model of the connections available. 
 
@@ -129,109 +125,25 @@ A|B
 
 Systems biology target events or courses (Table 1).
 
-<table>
-  <tr>
-   <td>Type of event
-   </td>
-   <td>Event name
-   </td>
-   <td>Original course url
-   </td>
-   <td>TeSS url
-   </td>
-   <td>…
-   </td>
-  </tr>
-  <tr>
-   <td>Course
-   </td>
-   <td>Systems biology: from large datasets to biological insight
-   </td>
-   <td><a href="https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/">link</a>
-   </td>
-   <td><a href="https://tess.elixir-europe.org/events/systems-biology-from-large-datasets-to-biological-insight-a32ab30e-f479-4d14-9a12-20000161d99f">link</a>
-   </td>
-   <td>…
-   </td>
-  </tr>
-  <tr>
-   <td>Course
-   </td>
-   <td>Integrative analysis of multi-omics data
-   </td>
-   <td><a href="https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/">link</a>
-   </td>
-   <td>none
-   </td>
-   <td>…
-   </td>
-  </tr>
-</table>
-
+| Type of event | Event name                                                 | Original course url                                                                                | TeSS url                                                                                                                                     | … |
+| ------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | - |
+| Course        | Systems biology: from large datasets to biological insight | [link](https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/) | [link](https://tess.elixir-europe.org/events/systems-biology-from-large-datasets-to-biological-insight-a32ab30e-f479-4d14-9a12-20000161d99f) | … |
+| Course        | Integrative analysis of multi-omics data                   | [link](https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/)              | none                                                                                                                                         | … |
 
 **Table 1.** 
-
 
 #### Keywords {#keywords}
 
 List potentially relevant keywords (specific to the field or not) for a user to search for courses or training materials in systems biology (Table 2).
 
+| ------------------------ | ------------------ | ---------------- | ----------------- |
+| machine learning         | network analysis   | data management  | logic modelling   |
+| deep learning            | open science       | data integration | single cell omics |
+| dimensionality reduction | data heterogeneity | multi omics      | Cytoscape         |
+| MOFA2                    | Seurat             | mixOmics         | cosmosR           |
+| CellNOptR                | MuVi               | CytoCopteR       | …                 |
 
-<table>
-  <tr>
-   <td>machine learning
-   </td>
-   <td>network analysis
-   </td>
-   <td>data management
-   </td>
-   <td>logic modelling
-   </td>
-  </tr>
-  <tr>
-   <td>deep learning
-   </td>
-   <td>open science
-   </td>
-   <td>data integration
-   </td>
-   <td>single cell omics
-   </td>
-  </tr>
-  <tr>
-   <td>dimensionality reduction
-   </td>
-   <td>data heterogeneity
-   </td>
-   <td>multi omics
-   </td>
-   <td>Cytoscape
-   </td>
-  </tr>
-  <tr>
-   <td>MOFA2
-   </td>
-   <td>Seurat
-   </td>
-   <td>mixOmics
-   </td>
-   <td>cosmosR
-   </td>
-  </tr>
-  <tr>
-   <td>CellNOptR
-   </td>
-   <td>MuVi
-   </td>
-   <td>CytoCopteR
-   </td>
-   <td>…
-   </td>
-  </tr>
-</table>
-
-
-**Table 2. **List of keywords a user may use in order to search for target courses. 
+**Table 2. ** List of keywords a user may use in order to search for target courses. 
 
 ### 3. Curation of ontologies 
 
@@ -249,96 +161,13 @@ List potentially relevant keywords (specific to the field or not) for a user to 
     * Gather information relevant to target terms: concise definition, URL, synonyms, etc.
     * Edit existing terms to add relevant attributes.
     * Add terms that are not yet there. Given the case, add link to external ontologies
-
-<table>
-  <tr>
-   <td>
-<strong>Label</strong>
-   </td>
-   <td><strong>in EDAM</strong>
-   </td>
-   <td><strong>Sub-ontology in EDAM</strong>
-   </td>
-   <td><strong>Parent  \
-in EDAM</strong>
-   </td>
-   <td><strong>Def</strong>
-   </td>
-   <td><strong>Attributes</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>machine learning
-   </td>
-   <td><a href="https://edamontology.github.io/edam-browser/#http://edamontology.org/topic_3474">yes</a>
-   </td>
-   <td>Topic
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>deep learning
-   </td>
-   <td>no
-   </td>
-   <td>Topic
-   </td>
-   <td><a href="http://edamontology.org/topic_3474">Machine learning</a>
-   </td>
-   <td>(from EDAM-BioImaging)
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>dimensionality reduction
-   </td>
-   <td><a href="https://edamontology.github.io/edam-browser/#http://edamontology.org/operation_3935">yes</a>
-   </td>
-   <td>Operation
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>hasTopic Machine Learning
-   </td>
-  </tr>
-  <tr>
-   <td>logic modelling
-   </td>
-   <td>no
-   </td>
-   <td>Data
-   </td>
-   <td><a href="http://edamontology.org/data_0950">Mathematical modelling</a>
-   </td>
-   <td>(from MAMO)
-   </td>
-   <td>hasSynonym algebraic logic model, logic model
-   </td>
-  </tr>
-  <tr>
-   <td>single-cell omics
-   </td>
-   <td>no
-   </td>
-   <td>Topic
-   </td>
-   <td><a href="http://edamontology.org/topic_3391">Omics</a>
-   </td>
-   <td>(new)
-   </td>
-   <td>hasSynonym Single-cell multi-omics
-   </td>
-  </tr>
-</table>
-
+| Label                    | in EDAM                                                                                    | Sub-ontology in EDAM | Parent<br>in EDAM                                           | Def                    | Attributes                                    |
+| ------------------------ | ------------------------------------------------------------------------------------------ | -------------------- | ----------------------------------------------------------- | ---------------------- | --------------------------------------------- |
+| machine learning         | [yes](https://edamontology.github.io/edam-browser/#http://edamontology.org/topic_3474)     | Topic                |                                                             |                        |                                               |
+| deep learning            | no                                                                                         | Topic                | [Machine learning](http://edamontology.org/topic_3474)      | (from EDAM-BioImaging) |                                               |
+| dimensionality reduction | [yes](https://edamontology.github.io/edam-browser/#http://edamontology.org/operation_3935) | Operation            |                                                             |                        | hasTopic Machine Learning                     |
+| logic modelling          | no                                                                                         | Data                 | [Mathematical modelling](http://edamontology.org/data_0950) | (from MAMO)            | hasSynonym algebraic logic model, logic model |
+| single-cell omics        | no                                                                                         | Topic                | [Omics](http://edamontology.org/topic_3391)                 | (new)                  | hasSynonym Single-cell multi-omics            |
 
 **Table 3. **Selection of keywords that may be used for a user to search for SB courses or training materials in TeSS, and their attributes. Those terms were added and/or annotated appropriately following our objectives and semantics model.
 
@@ -347,74 +176,14 @@ in EDAM</strong>
 
 * Addition/edition of tools in bio.tools (Table 4)
     * Annotation of tools with EDAM terms
+    
+| Tool      | In BT                              | Topic (EDAM)<br>applicationSubCategory (BT) | Operation (EDAM)<br>featureList (BT)         | Data (EDAM)
 
-<table>
-  <tr>
-   <td>
-<strong>Tool</strong>
-   </td>
-   <td><strong>In BT</strong>
-   </td>
-   <td><strong>Topic (EDAM) \
-applicationSubCategory (BT)</strong>
-   </td>
-   <td><strong>Operation (EDAM) \
-featureList (BT)</strong>
-   </td>
-   <td><strong>Data (EDAM)</strong>
-<p>
-<strong>input/output (BT)</strong>
-   </td>
-   <td><strong>URL</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Cytoscape
-   </td>
-   <td><a href="https://bio.tools/cytoscape">Yes</a>
-   </td>
-   <td>Systems Biology, \
-(Bioinformatics)
-   </td>
-   <td>Network analysis, \
-(Network visualisation)
-   </td>
-   <td>...
-   </td>
-   <td>…
-   </td>
-  </tr>
-  <tr>
-   <td>Seurat
-   </td>
-   <td><a href="https://bio.tools/seurat">Yes</a>
-   </td>
-   <td>Transcriptomics,  \
-(Single-cell omics)
-   </td>
-   <td>Data integration
-   </td>
-   <td>RNA sequence, \
-Clustered expression profiles
-   </td>
-   <td>…
-   </td>
-  </tr>
-  <tr>
-   <td>MOFA2
-   </td>
-   <td>No
-   </td>
-   <td>Multi-omics
-   </td>
-   <td>Data integration
-   </td>
-   <td>...
-   </td>
-   <td><a href="https://biofam.github.io/MOFA2/">link</a>
-   </td>
-  </tr>
-</table>
+input/output (BT)                 | URL                                           |
+| --------- | ---------------------------------- | ------------------------------------------- | -------------------------------------------- | ---------------------------------------------- | --------------------------------------------- |
+| Cytoscape | [Yes](https://bio.tools/cytoscape) | Systems Biology,<br>(Bioinformatics)        | Network analysis,<br>(Network visualisation) | ...                                            | …                                             |
+| Seurat    | [Yes](https://bio.tools/seurat)    | Transcriptomics,<br>(Single-cell omics)     | Data integration                             | RNA sequence,<br>Clustered expression profiles | …                                             |
+| MOFA2     | No                                 | Multi-omics                                 | Data integration                             | ...                                            | [link](https://biofam.github.io/MOFA2/) |
 
 **Table 4.** A selection of tools that were added or further annotated in bio.tools.
 
@@ -424,45 +193,10 @@ Clustered expression profiles
     * Annotation of EDAM terms
     * Annotation of tools used in courses
 
-<table>
-  <tr>
-   <td>
-Type
-   </td>
-   <td>Event name
-   </td>
-   <td>URL in TeSS
-   </td>
-   <td>Terms
-   </td>
-   <td>Tools
-   </td>
-  </tr>
-  <tr>
-   <td>Course
-   </td>
-   <td>Systems biology: from large datasets to biological insight
-   </td>
-   <td>…
-   </td>
-   <td>…
-   </td>
-   <td>…
-   </td>
-  </tr>
-  <tr>
-   <td>Course
-   </td>
-   <td>Integrative analysis of multi-omics data
-   </td>
-   <td><span style="text-decoration:underline;">link</span>
-   </td>
-   <td>(EDAM tags)
-   </td>
-   <td>(biotools tags)
-   </td>
-  </tr>
-</table>
+| Type   | Event name                                                 | URL in TeSS | Terms                | Tools                    |
+| ------ | ---------------------------------------------------------- | ----------- | -------------------- | ------------------------ |
+| Course | Systems biology: from large datasets to biological insight | …           | …                    | …                        |
+| Course | Integrative analysis of multi-omics data                   | link        | (EDAM tags) | (biotools tags) |
 
 **Table 5.** (from use cases) A new course was added to TeSS’ catalogue and properly annotated using relevant keywords and following the semantics model (see Figure 1B).
 
@@ -508,6 +242,7 @@ Enable browsing on found materials in TeSS and provide links that will search wi
 Search linking to ontologies or semi-refill search to nearest terms (?)
 
 ![Figure 3. A.](./Figures_report/Figure3A.png){width=90%}
+
 ![Figure 3. B.](./Figures_report/Figure3B.png){width=90%}
 
 **Figure 3.** A. From bio.tools to TeSS. B. From TeSS to bio.tools.
