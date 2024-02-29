@@ -113,9 +113,9 @@ How can TeSS and bio.tools be connected through Bioschemas:
 * Use of/addition of SB-specific terms in EDAM (developers-dependent) 
 * Use of markup annotations provided by Bioschemas (content makers-dependent)
 
-![Figure 1. A.](./Figures_report/Figure1A.png)
+![Figure 1. A.](./Figures_report/Figure1A.png){width=50%}
 
-![Figure 1. B.](./Figures_report/Figure1B_Semantics-model-Herve.png)
+![Figure 1. B.](./Figures_report/Figure1B_Semantics-model-Herve.png){width=70%}
 
 **Figure 1.** A. Events and tools from TeSS and bio.tools could be connected through the implementation of Bioschemas markup and the use of the EDAM ontology, however the process is currently not straightforward. B. Detailed semantics model of the connections available. 
 
@@ -203,7 +203,7 @@ input/output (BT)                 | URL                                         
 The addition of these terms and annotations across the EDAM-bio.tools-TeSS ecosystem allows us to connect tools and courses through our semantic model, thus facilitating users’ search for appropriate courses and training material in the field of systems biology (Figure 2).
 
 
-![Figure 2.](./Figures_report/Figure2.png){width=90%}
+![Figure 2.](./Figures_report/Figure2.png){width=80%}
 
 **Figure 2.** Bioschemas provide specifications for markup annotations of a variety of resources (tools, training materials, ...) and makes use of a standard, controlled vocabulary through the EDAM ontology.
 
@@ -241,9 +241,9 @@ Enable browsing on found materials in TeSS and provide links that will search wi
 
 Search linking to ontologies or semi-refill search to nearest terms (?)
 
-![Figure 3. A.](./Figures_report/Figure3A.png){width=90%}
+![Figure 3. A.](./Figures_report/Figure3A.png){width=80%}
 
-![Figure 3. B.](./Figures_report/Figure3B.png){width=90%}
+![Figure 3. B.](./Figures_report/Figure3B.png){width=80%}
 
 **Figure 3.** A. From bio.tools to TeSS. B. From TeSS to bio.tools.
 
