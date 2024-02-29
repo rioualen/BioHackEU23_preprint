@@ -457,10 +457,9 @@ Type
    </td>
    <td><span style="text-decoration:underline;">link</span>
    </td>
-   <td>🟦 🟩 🟥 (EDAM tags)
+   <td>(EDAM tags)
    </td>
-   <td>🟧 🟧 \
-(biotools tags)
+   <td>(biotools tags)
    </td>
   </tr>
 </table>
