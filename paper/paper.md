@@ -14,7 +14,7 @@ affiliations:
 - name: Laboratory of Systems and Synthetic Biology, Wageningen University and Research,
     Wageningen, Netherlands
   index: 3
-- name: University of Bergen, 5020 Bergen, Norway.
+- name: University of Bergen, 5020 Bergen, Norway
   index: 4
 - name: "University of Ljubljana, Faculty of Medicine, IBMI, Centre ELIXIR-SI, Slovenia"
   index: 5
@@ -56,11 +56,10 @@ authors:
   affiliation: 5
 - name: Hervé Ménager
   orcid: "0000-0002-7552-1009"
-  affiliation: null
+  affiliation: 1,6
 - name: Barbara Szomolay
   orcid: "0000-0002-5375-5533"
   affiliation: 7
-header-includes: \usepackage[figuresright]{rotating}
 ---
 
 ## Project abstract {#project-abstract}
@@ -79,9 +78,9 @@ Systems biology, Bio-ontologies, FAIR science
 
 ### Background {#background}
 
-The Systems Biology Community is one of the most recently-created ELIXIR Community (Santos et al., 2022), with the aim of answering several infrastructure needs identified by the community. Owing to its very nature, the field of systems biology (SB) relies not only on the development and use of modelling tools, but also on data storage solutions and community standards. For these reasons,  the SB community set some of its main focuses on the interoperability of systems biology resources and the coordination of capacity building and training resources.
+The Systems Biology Community is one of the most recently-created ELIXIR Community [@citesAsRelated:Beard_2020], with the aim of answering several infrastructure needs identified by the community. Owing to its very nature, the field of systems biology (SB) relies not only on the development and use of modelling tools, but also on data storage solutions and community standards. For these reasons,  the SB community set some of its main focuses on the interoperability of systems biology resources and the coordination of capacity building and training resources.
 
-These objectives align within the scope of the ELIXIR Programme and ecosystem, and more specifically with the Training eSupport System (TeSS; [@citesAsAuthority:Beard_2020]) and the bio.tools registry [@citesAsAuthority:Ison_2019]. TeSS provides a platform for all sorts of life science-related training events and materials, mostly by aggregating data and metadata from identified content providers by means of HTML scraping, application programming interface (API) integration, and structured-data formats parsing [schema.org](https://schema.org/) [@usesMethodIn:Guha_2016]. Besides, the project is highly involved in [Bioschemas](https://bioschemas.org/) [@citesAsAuthority:Gray_2017] development, an initiative that aims at building upon Schema.org specifications, while providing better-tailored specification profiles for life sciences at large. The bio.tools platform is a community effort of curation of computational biology tools, answering the need for a consistent and up-to-date registry of existing tools and algorithms across all fields of life sciences. The project, also supported by ELIXIR, currently amounts to almost 30,000 tools, annotated by topics, operations, data formats, and many more criteria, allowing users to navigate it rather straightforwardly.
+These objectives align within the scope of the ELIXIR Programme and ecosystem, and more specifically with the Training eSupport System (TeSS) [@citesAsAuthority:Beard_2020] and the bio.tools registry [@citesAsAuthority:Ison_2019]. TeSS provides a platform for all sorts of life science-related training events and materials, mostly by aggregating data and metadata from identified content providers by means of HTML scraping, application programming interface (API) integration, and structured-data formats parsing [schema.org](https://schema.org/) [@usesMethodIn:Guha_2016]. Besides, the project is highly involved in [Bioschemas](https://bioschemas.org/) [@citesAsAuthority:Gray_2017] development, an initiative that aims at building upon Schema.org specifications, while providing better-tailored specification profiles for life sciences at large. The bio.tools platform is a community effort of curation of computational biology tools, answering the need for a consistent and up-to-date registry of existing tools and algorithms across all fields of life sciences. The project, also supported by ELIXIR, currently amounts to almost 30,000 tools, annotated by topics, operations, data formats, and many more criteria, allowing users to navigate it rather straightforwardly.
 
 The adequate annotation of both tools and training materials available in TeSS and bio.tools is permitted and facilitated by using the EDAM ontology [@citesAsAuthority:Black_2021]. EDAM is precisely aimed at standardizing terms and definitions for data analysis and management in the context of life sciences. Its goal is to define a controlled vocabulary to be used for several purposes such as the classification of concepts and the semantic annotation of relevant resources. 
 
