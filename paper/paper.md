@@ -1,7 +1,6 @@
 ---
-title: 'BioHackEU23: Synergising ELIXIR Resources for Training in Systems Biology '
-title_short: 'BioHackEU23 #32: Synergising ELIXIR Resources for Training in Systems
-  Biology'
+title: 'Synergising ELIXIR resources for training in systems biology'
+title_short: 'ELIXIR resources for training in systems biology'
 date: "7 April 2024"
 output:
   html_document:
@@ -9,14 +8,14 @@ output:
 affiliations:
 - name: Institut Français de Bioinformatique, CNRS UAR 3601, Évry, France
   index: 1
-- name: University of  Manchester
+- name: University of Manchester, United Kingdom
   index: 2
 - name: Laboratory of Systems and Synthetic Biology, Wageningen University and Research,
     Wageningen, Netherlands
   index: 3
-- name: University of Bergen, 5020 Bergen, Norway
+- name: ELIXIR Norway, and Department of Informatics, University of Bergen, Norway
   index: 4
-- name: "University of Ljubljana, Faculty of Medicine, IBMI, Centre ELIXIR-SI, Slovenia"
+- name: University of Ljubljana, Faculty of Medicine, IBMI, Centre ELIXIR-SI, Slovenia
   index: 5
 - name: Institut Pasteur, Université Paris Cité, Bioinformatics and Biostatistics
     Hub, 75015, Paris, France
@@ -25,19 +24,20 @@ affiliations:
     Cardiff University School of Medicine, United Kingdom
   index: 7
 tags:
-- Systems Biology
+- Systems biology
+- Training
 - Ontologies
 - ELIXIR
 - EDAM
 - Bioschemas
 cito-bibliography: paper.bib
 event: BH23EU
-biohackathon_name: BioHackathon Europe 2023
-biohackathon_url: "https://biohackathon-europe.org/"
-biohackathon_location: Barcelona, Spain, 2023
-group: Project 32
-git_url: "https://github.com/biohackrxiv/publication-template"
-authors_short: Rioualen \emph{et al.}
+biohackathon_name: "BioHackathon Europe 2023"
+biohackathon_url:   "https://biohackathon-europe.org/"
+biohackathon_location: "Barcelona, Spain, 2023"
+group: Project 32 - Synergising ELIXIR resources for training in systems biology
+git_url: https://github.com/rioualen/BioHackEU23_preprint
+authors_short: Claire Rioualen \emph{et al.}
 authors:
 - name: Claire Rioualen
   orcid: "0000-0002-7684-8679"
