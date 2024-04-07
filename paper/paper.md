@@ -72,10 +72,6 @@ In this project, we will focus on selected SB disciplines from the priority area
 
 This will be achieved using suitable ontologies identified by the SB community and by careful curation of SB-related materials. We aim to extend this work to other ELIXIR products such as lists of trainers, related ELIXIR Innovation and Industry events and publications. This will serve as a pilot project leading to broader integration with other SB disciplines, and will be of interest to several other ELIXIR Communities.
 
-### Keywords {#keywords}
-
-Systems biology, Bio-ontologies, FAIR science
-
 
 ## Introduction {#introduction}
 
