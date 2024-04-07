@@ -55,7 +55,7 @@ authors:
   affiliation: 5
 - name: Hervé Ménager
   orcid: "0000-0002-7552-1009"
-  affiliation: null
+  affiliation: 1,6
 - name: Barbara Szomolay
   orcid: "0000-0002-5375-5533"
   affiliation: 7
