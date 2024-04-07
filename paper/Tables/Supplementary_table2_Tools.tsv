@@ -1,0 +1,9 @@
+Label	Is it in bio.tools?	Link to bio.tool	Link to tool	Topic (old)	Operation (old)	Data (old)	Topic (new)	Operation (new)	Data (new)
+CellNOptR	Yes	https://bio.tools/cellnoptr		Systems Biology; Molecular interactions, pathways and networks 	Optimisation and refinement; Modelling and simulation	Pathway or network; Pathway or networkreport			
+cosmosR	Yes	https://bio.tools/cosmos-omics		Metabolomics; Molecular interactions, pathways and networks; Transcriptomics; Endocrinology and metabolism; Small molecules; Omics; Proteomics	Gene regulatory network analysis; Text mining; Quantification	-			
+CytoCopteR	No	-	https://apps.cytoscape.org/apps/cytocopter	-	-	-			
+Cytoscape	Yes	https://bio.tools/cytoscape		Bioinformatics; Molecular interactions, pathways and networks; Data visualisation; Rare diseases	Pathway or network visualisation; Network simulation	-	Systems Biology	Network analysis	...
+mixOmics	Yes	https://bio.tools/mixomics		Molecular interactions, pathways and networks; Statistics and probability; Machine learning; Omics; Data visualisation; Transcriptomics; Proteomics; Metabolomics	Visualisation; Clustering; Dimensionality reduction; PCA	Matrix; Score			
+MOFA2	No	-	https://biofam.github.io/MOFA2/	-	-	-	Multi-omics	Data integration	
+MuVi	No	-	https://github.com/MLO-lab/MuVI	-	-	-			
+Seurat 	Yes	https://bio.tools/seurat		RNA-seq; Transcriptomics	-	-	Single-cell omics	Data integration	RNA sequence, Clustered expression profiles
