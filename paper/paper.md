@@ -28,7 +28,7 @@ affiliations:
 - name: Division of Infection and Immunity & Systems Immunity Research Institute,
     Cardiff University School of Medicine, United Kingdom.
   index: 7
-  date: "7 April 2024"
+date: "7 April 2024"
 cito-bibliography: paper.bib
 event: BH23EU
 biohackathon_name: BioHackathon Europe 2023
