@@ -108,23 +108,9 @@ Additionally, we conducted a thorough analysis to identify any existing gaps in 
 
 ## BioHackathon results {#biohackathon-results}
 
-### 1. Semantic model
+### 1. Definition of use cases
 
-Most of the ELIXIR resources that serve the contents we aim to connect provide interoperable metadata using Schema.org, Bioschemas, and EDAM. We surveyed here how these metadata standards can enable the representation of the information necessary to describe different resources (_e.g._ software, training materials) so that they can be searched and connected. 
-
-To enhance the findability and navigation of SB resources, the first step was to connect TeSS and bio.tools entries using schema.org markup annotations and establish a semantic model for interoperability (Figure 1). 
-
-
-![A. Connecting events and tools from TeSS and bio.tools via Bioschemas markup and EDAM ontology implementation is feasible, but currently not straightforward. B. This data model represents the data objects and links linking training and software tools as well as EDAM with Bioschemas links. It summarises information that can be linked in an interoperable way between bio.tools and TeSS, using EDAM and BioSchemas/Schema.org.](./Figures_report/Figure1AB.png){width=100%}
-
-
-Although the connection is functionally feasible, in practice it relies on the proper use of markup annotations, as recommended by the FAIR Guiding Principles. Specifically, it demands ongoing efforts to utilize, develop, and sustain a systems biology vocabulary within the EDAM ontology (developer-dependent), while also necessitating efforts to maximize the utilization of markup annotations offered by Bioschemas (content maker-dependent).
-
-
-### 2. Definition of use cases
-
-#### Courses {#courses}
-
+We first aim to define use cases for this project, which will specify which features can be added or improved. In order to achieve this, we first selected a set of existing systems biology resources, both as training courses (Table 1) and software tools (Table 2). Additionally, a list of keywords commonly used by systems biology experts to query similar resources is listed (Table 3).
 
 **Table 1.** List of systems biology target events or courses.
 
@@ -133,26 +119,47 @@ Although the connection is functionally feasible, in practice it relies on the p
 | Course        | Systems biology: from large datasets to biological insight | [https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/](https://www.ebi.ac.uk/training/events/systems-biology-large-datasets-biological-insight-2/) |
 | Course        | Integrative analysis of multi-omics data                   | [https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/](https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/)              |
 
+**Table 2.** List of systems biology software tools.
 
-#### Keywords {#keywords-sb}
+| Software link |
+| -- |
+| https://biofam.github.io/MOFA2/ |
+| https://bio.tools/cytoscape |
+| https://bio.tools/cellnoptr |
+| https://apps.cytoscape.org/apps/cytocopter |
+| https://bio.tools/cosmos-omics |
+| https://bio.tools/seurat |
+| https://github.com/MLO-lab/MuVI |
+| https://bio.tools/mixomics |
 
-List of potentially relevant keywords (specific to the field or not) for a user to search for courses or training materials in systems biology (Table 2).
+**Table 3.** List of keywords used in order to search for target courses. 
 
-**Table 2. ** List of keywords a user may use in order to search for target courses. 
+| Keyword |
+| ---------------- | 
+| machine learning |
+| network analysis |
+| data management  |
+| logic modelling  |
+| data integration |
+| single cell omics |
+| deep learning     |
+| open science      |
+| data heterogeneity |
+| dimensionality reduction |
+|  multi omics.     |
 
-| | |
-| ----------------- | ------------------ | 
-| machine learning  | Cytoscape          |
-| network analysis  |  cosmosR           |
-|  data management  |  mixOmics          |
-| logic modelling   | CytoCopteR         | 
-|  data integration | Seurat             |
-| single cell omics | MuVi               |
-| deep learning     |   CellNOptR        | 
-| open science      |  MOFA2             | 
-| data heterogeneity |                   |
-| dimensionality reduction |             |
-|  multi omics.     |                    |
+The different resources, to facilitate their access, should be properly searchable (using e.g. the keywords mentioned above), and linked in the ELIXIR resources (e.g. Training eSupport System (TeSS) [@citesAsAuthority:Beard_2020], the bio.tools registry [@citesAsAuthority:Ison_2019], EDAM Browser [@citesAsAuthority:brancotte2018reusable]). Figure 2 illustrates a proposition for these use cases, backed  by the data model described in the next section.
+
+### 2. Data model
+
+Most of the ELIXIR resources that serve the contents we aim to connect provide interoperable metadata using Schema.org, Bioschemas, and EDAM. We surveyed here how these metadata standards can enable the representation of the information necessary to describe different resources (_e.g._ software, training materials) so that they can be searched and connected (semantically linked). 
+
+To enhance the findability and navigation of SB resources, the first step was to connect TeSS and bio.tools entries using schema.org markup annotations and establish a semantic model for interoperability (Figure 1). 
+
+![A. Connecting events and tools from TeSS and bio.tools via Bioschemas markup and EDAM ontology implementation is feasible, but currently not straightforward. B. This data model represents the data objects and links linking training and software tools as well as EDAM with Bioschemas links. It summarises information that can be linked in an interoperable way between bio.tools and TeSS, using EDAM and BioSchemas/Schema.org.](./Figures_report/Figure1AB.png){width=100%}
+
+
+Although the connection is functionally feasible, in practice it relies on the proper use of markup annotations, as recommended by the FAIR Guiding Principles. Specifically, it demands ongoing efforts to utilize, develop, and sustain a systems biology vocabulary within the EDAM ontology (developer-dependent), while also necessitating efforts to maximize the utilization of markup annotations offered by Bioschemas (content maker-dependent).
 
 
 ### 3. Knowledge gap: immediate improvements
@@ -203,9 +210,7 @@ Finally, we added (number?) new event entries in TeSS for SB-related courses, pa
 
 **Table 5.** (from use cases) A new course was added to TeSS’ catalogue and properly annotated using relevant keywords and following the semantics model (see Figure 1B).
 
-
-The addition of these terms and annotations across the EDAM-bio.tools-TeSS ecosystem allows us to connect tools and courses through our semantic model, thus facilitating users’ search for appropriate courses and training material in the field of systems biology (Figure 2).
-
+The addition of these terms and annotations across the EDAM-bio.tools-TeSS ecosystem allows us to connect tools and courses through our semantic model, thus facilitating users’ search for appropriate courses and training material in the field of systems biology. As shown in Figure 2, the connection of events and tools .
 
 ![The addition and/or update of terms and tools in the ecosystem allows the connection of events and tools through markup annotations.](./Figures_report/Figure2.png){width=100%}
 
