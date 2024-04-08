@@ -106,22 +106,9 @@ Additionally, we conducted a thorough analysis to identify any existing gaps in 
 
 ## BioHackathon results {#biohackathon-results}
 
-### 1. Semantic model
-
-Most of the ELIXIR resources that serve the contents we aim to connect provide interoperable metadata using Schema.org, Bioschemas, and EDAM. We surveyed here how these metadata standards can enable the representation of the information necessary to describe different resources (_e.g._ software, training materials) so that they can be searched and connected. 
-
-To enhance the findability and navigation of SB resources, the first step was to connect TeSS and bio.tools entries using Schema.org markup annotations and establish a semantic model for interoperability (Figure 1). 
 
 
-![A. Connecting events and tools from TeSS and bio.tools via Bioschemas markup and the EDAM ontology implementation is feasible, but currently not straightforward. B. This data model represents the data objects and links linking training and software tools as well as EDAM with Bioschemas links. It summarises information that can be linked in an interoperable way between bio.tools and TeSS, using EDAM and Bioschemas/Schema.org.](./Figures_report/Figure1AB.png){width=100%}
-
-
-Although the connection is functionally feasible, in practice it relies on the proper use of markup annotations, as recommended by the FAIR guiding principles. Specifically, it demands ongoing efforts to utilise, develop, and sustain a systems biology vocabulary within the EDAM ontology (developer-dependent), while also necessitating efforts to maximise the utilisation of markup annotations offered by Bioschemas (content maker-dependent).
-
-
-### 2. Definition of use cases
-
-#### Courses {#courses}
+### 1. Definition of use cases
 
 
 **Table 1.** List of systems biology target events or courses.
@@ -132,25 +119,49 @@ Although the connection is functionally feasible, in practice it relies on the p
 | Course        | Integrative analysis of multi-omics data                   | [https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/](https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/)              |
 
 
-#### Keywords {#keywords-sb}
 
-List of potentially relevant keywords (specific to the field or not) for a user to search for courses or training materials in systems biology (Table 2).
+**Table 2.** List of systems biology software tools.
 
-**Table 2. ** List of keywords a user may use in order to search for target courses. 
+| Software link |
+| -- |
+| https://biofam.github.io/MOFA2/ |
+| https://bio.tools/cytoscape |
+| https://bio.tools/cellnoptr |
+| https://apps.cytoscape.org/apps/cytocopter |
+| https://bio.tools/cosmos-omics |
+| https://bio.tools/seurat |
+| https://github.com/MLO-lab/MuVI |
+| https://bio.tools/mixomics |
 
-| | |
-| ----------------- | ------------------ | 
-| machine learning  | Cytoscape          |
-| network analysis  |  cosmosR           |
-|  data management  |  mixOmics          |
-| logic modelling   | CytoCopteR         | 
-|  data integration | Seurat             |
-| single cell omics | MuVi               |
-| deep learning     |   CellNOptR        | 
-| open science      |  MOFA2             | 
-| data heterogeneity |                   |
-| dimensionality reduction |             |
-|  multi omics.     |                    |
+**Table 3.** List of keywords used in order to search for target courses. 
+
+| Keyword |
+| ---------------- | 
+| machine learning |
+| network analysis |
+| data management  |
+| logic modelling  |
+| data integration |
+| single cell omics |
+| deep learning     |
+| open science      |
+| data heterogeneity |
+| dimensionality reduction |
+|  multi omics.     |
+
+The different resources, to facilitate their access, should be properly searchable (using e.g. the keywords mentioned above), and linked in the ELIXIR resources (e.g. Training eSupport System (TeSS) [@citesAsAuthority:Beard_2020], the bio.tools registry [@citesAsAuthority:Ison_2019], EDAM Browser [@citesAsAuthority:brancotte2018reusable]). Figure 2 illustrates a proposition for these use cases, backed  by the data model described in the next section.
+
+### 2. Data model
+
+Most of the ELIXIR resources that serve the contents we aim to connect provide interoperable metadata using Schema.org, Bioschemas, and EDAM. We surveyed here how these metadata standards can enable the representation of the information necessary to describe different resources (_e.g._ software, training materials) so that they can be searched and connected. 
+
+To enhance the findability and navigation of SB resources, the first step was to connect TeSS and bio.tools entries using schema.org markup annotations and establish a semantic model for interoperability (Figure 1). 
+
+
+![A. Connecting events and tools from TeSS and bio.tools via Bioschemas markup and the EDAM ontology implementation is feasible, but currently not straightforward. B. This data model represents the data objects and links linking training and software tools as well as EDAM with Bioschemas links. It summarises information that can be linked in an interoperable way between bio.tools and TeSS, using EDAM and Bioschemas/Schema.org.](./Figures_report/Figure1AB.png){width=100%}
+
+
+Although the connection is functionally feasible, in practice it relies on the proper use of markup annotations, as recommended by the FAIR guiding principles. Specifically, it demands ongoing efforts to utilise, develop, and sustain a systems biology vocabulary within the EDAM ontology (developer-dependent), while also necessitating efforts to maximise the utilisation of markup annotations offered by Bioschemas (content maker-dependent).
 
 
 ### 3. Knowledge gap: immediate improvements
@@ -160,9 +171,9 @@ Following our curation of existing ontologies and keywords list, we were able to
 
 #### EDAM {#edam}
 
-First, we identified concepts from our keywords list that were already available in EDAM for the annotation of resources, and when relevant, added or edited relevant attributes. Then we identified terms to be added to the ontology, whether they are topics, operations, or data types, and their parents in the ontology, concise definition, URL, common synonyms, _etc._ (Table 3).
+First, we identified concepts from our keywords list that were already available in EDAM for the annotation of resources, and when relevant, added or edited relevant attributes. Then we identified terms to be added to the ontology, whether they are topics, operations, or data types, and their parents in the ontology, concise definition, URL, common synonyms, _etc._ (Table 4).
 
-**Table 3. ** Selection of terms that may be used for a user to search for SB courses or training materials in TeSS. Some of those terms are already available in EDAM and can be further annotated with relevant synonyms, some terms are available in specialised ontologies (SBO, MAMO), and finally some terms are yet to be added to and defined in EDAM. More detail can be found in the supplementary table S1.
+**Table 4. ** Selection of terms that may be used for a user to search for SB courses or training materials in TeSS. Some of those terms are already available in EDAM and can be further annotated with relevant synonyms, some terms are available in specialised ontologies (SBO, MAMO), and finally some terms are yet to be added to and defined in EDAM. More detail can be found in the supplementary table S1.
 
 | Label                    | Ontology term                                                                                    | Sub-ontology in EDAM |
 | -- | ---- | - |
@@ -177,9 +188,9 @@ First, we identified concepts from our keywords list that were already available
 
 #### bio.tools {#bio-tools}
 
-Tools that were already available in the bio.tools registry were edited to include more accurate annotations of their related EDAM topics, operations, as well as data types when needed. Plus, a few tools were added to the registry (Table 4).
+Tools that were already available in the bio.tools registry were edited to include more accurate annotations of their related EDAM topics, operations, as well as data types when needed. Plus, a few tools were added to the registry (Table 5).
 
-**Table 4.** Selection of tools commonly used for SB analyses. Some tools are referenced in bio.tools but not necessarily thoroughly annotated, while others are yet to be added. More detail can be found in the supplementary table S2. 
+**Table 5.** Selection of tools commonly used for SB analyses. Some tools are referenced in bio.tools but not necessarily thoroughly annotated, while others are yet to be added. More detail can be found in the supplementary table S2. 
 
 | Name      | bio.tools ID                              | Topic | Operation         |
 | - | --- | --- | --- |
@@ -190,9 +201,9 @@ Tools that were already available in the bio.tools registry were edited to inclu
 
 #### TeSS {#tess}
 
-Courses that are in the TeSS catalogue cannot currently be edited by users to add markup annotations. New entries can however be annotated with EDAM topics and operations using an integrated drop-down menu (Table 5).  
+Courses that are in the TeSS catalogue cannot currently be edited by users to add markup annotations. New entries can however be annotated with EDAM topics and operations using an integrated drop-down menu (Table 6).  
 
-**Table 5.** Selection of events or courses related to systems biology. More detail can be found in the supplementary table S3. 
+**Table 6.** Selection of events or courses related to systems biology. More detail can be found in the supplementary table S3. 
 
 | Type   | Name                                                 | Topics                | Operations                    |  Tools                    |
 | - | ---- | --| -- |  - |
@@ -202,8 +213,7 @@ Courses that are in the TeSS catalogue cannot currently be edited by users to ad
 
 
 
-The addition of these terms and annotations across the EDAM-bio.tools-TeSS ecosystem allows us to connect tools and courses through our semantic model, thus facilitating users’ search for appropriate courses and training material in the field of systems biology (Figure 2).
-
+The addition of these terms and annotations across the EDAM-bio.tools-TeSS ecosystem allows us to connect tools and courses through our semantic model, thus facilitating users’ search for appropriate courses and training material in the field of systems biology. As shown in Figure 2, the connection of events and tools.
 
 ![The update of existing terms and tools in the ecosystem (dark-coloured tags) and the addition of new terms and tools (pale-coloured tags) allow the connection of events and tools through Bioschemas markup annotations, specifically, by using (1) the "ComputationalTool" profile (Group Tools), (2) the "Course", "CourseInstance" and "TrainingMaterial" profiles (Group Training) and (3) the EDAM ontology (controlled vocabulary). ](./Figures_report/Figure2.png){width=100%}
 
@@ -212,40 +222,13 @@ In a wider fashion, the adoption of detailed markup annotation as recommended gu
 
 ## Discussion {#discussion}
 
+The general goal of the project presented here was to synchronise systems biology resources with the ELIXIR ecosystem. The work conducted during the 2023 Biohackathon Europe event focused on a pilot study, to assess more precisely the feasibility of our goal. 
 
-### Content annotation  {#content-annotation}
+In addition to the various specific editions and additions listed above, a number of evolutions or new features could potentially facilitate the maintenance and curation of bioinformatics resources listed and described with systems and references such as bio.tools, TeSS, or EDAM. In particular, a concrete and rather easy-to-implement feature would to enable a direct navigation from tools referenced in the bio.tools registry to courses or training materials that feature them (Figure 3A), and conversely,  from courses or events referenced in TeSS to bio.tools entries relevant to those (Figure 3B).
 
-* Ontology terms suggestions should be extracted from abstract or other descriptive text about tools (bio.tools) or materials (TeSS).
-* Suggested terms should be manually confirmed/validated/corrected by the curator.
-* Additional terms can be provided manually by the curator.
-* Allow users to edit entries in TeSS ? (many events lack annotations)
+![ A. From bio.tools to TeSS: enable browsing on found tools in bio.tools and provide links that will search with the same terms on TeSS. B. From TeSS to bio.tools: enable browsing on found materials in TeSS and provide links that will search with the same terms on bio.tools.](./Figures_report/Figure3AB.png){width=100%}
 
-
-### Content search {#content-search}
-
-* Ontology term(s) can be selected from different ontologies (autocomplete …). Multiple terms can be connected with Boolean operators. Boolean expressions are used for search.
-* Can regular expressions be used too?
-* Used search expressions can be saved or edited for more advanced searches.
-
-### Navigation across platforms  {#navigation-across-platforms}
-
-#### From bio.tools to TeSS {#from-bio-tools-to-tess}
-
-Enable browsing on found tools in bio.tools and provide links that will search with the same terms on TeSS (Figure 3A).
-
-#### From TeSS to bio.tools {#from-tess-to-bio-tools}
-
-Enable browsing on found materials in TeSS and provide links that will search with the same terms on bio.tools (Figure 3B).
-
-
-#### To other ontologies {#to-other-ontologies}
-
-Search linking to ontologies or semi-refill search to nearest terms (?)
-
-![A. From bio.tools to TeSS. B. From TeSS to bio.tools.](./Figures_report/Figure3AB.png){width=100%}
-
-
-
+Long-term goals include the extension the automated framework to other SB-related ELIXIR domains and services by adapting ontologies and exploring ontology mappings (e.g. between EDAM and SBO or MAMO), the annotation of SB-related products by a set of controlled and relational vocabularies, by using selected SB disciplines and related TeSS and bio.tools products (training events, training materials, computational, bioinformatics tools, databases, services), the integration of TeSS and bio.tools by extending TeSS’ Bioschemas parser, and finally, the exploration of a possible extension to other ELIXIR resources.
 
 ## Acknowledgements {#acknowledgements}
 
