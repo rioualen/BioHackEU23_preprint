@@ -46,7 +46,7 @@ authors:
   orcid: "0000-0002-0048-3300"
   affiliation: 2
 - name: Cristina Furlan
-  orcid: "XXXX-XXXX-XXXX-XXXX"
+  orcid: "0000-0003-1416-3647"
   affiliation: 3
 - name: Matúš Kalaš
   orcid: "0000-0002-1509-4981"
