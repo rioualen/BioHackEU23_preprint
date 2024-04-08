@@ -176,10 +176,10 @@ First, we identified concepts from our keywords list that were already available
 
 **Table 4. ** Selection of terms that may be used for a user to search for SB courses or training materials in TeSS. Some of those terms are already available in EDAM and can be further annotated with relevant synonyms, some terms are available in specialised ontologies (SBO, MAMO), and finally some terms are yet to be added to and defined in EDAM. More detail can be found in the supplementary table S1.
 
-| Label                    | Ontology term                                                                                    | Sub-ontology in EDAM |
-| -- | ---- | - |
+| Label                    | Ontology term                                                                                    | Sub-ontology |
+| - | --- | - |
 | machine learning         | [http://edamontology.org/topic_3474](http://edamontology.org/topic_3474)     | Topic                |                                                             |                        |
-| deep learning            | [EDAM-BioImaging](https://bioportal.bioontology.org/ontologies/EDAM-BIOIMAGING/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Ftopic______Deep_learning)                                                                                         | Topic                |
+| deep learning            | [https://bioportal.bioontology.org/ontologies/EDAM-BIOIMAGING/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Ftopic______Deep_learning](https://bioportal.bioontology.org/ontologies/EDAM-BIOIMAGING/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Ftopic______Deep_learning)                                                                                         | Topic                |
 | dimensionality reduction | [http://edamontology.org/operation_3935](http://edamontology.org/operation_3935) | Operation            |                                                             |
 | logic modelling          | http://identifiers.org/mamo/MAMO_0000030                                                   | Data                 |
 | single-cell omics        |  [http://edamontology.org/topic_4028](http://edamontology.org/topic_4028) (dev. version)                                                                                       | Topic                |
