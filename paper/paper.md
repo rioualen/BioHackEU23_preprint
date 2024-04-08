@@ -159,7 +159,7 @@ Most of the ELIXIR resources that serve the contents we aim to connect provide i
 To enhance the findability and navigation of SB resources, the first step was to connect TeSS and bio.tools entries using schema.org markup annotations and establish a semantic model for interoperability (Figure 1). 
 
 
-![A. Connecting events and tools from TeSS and bio.tools via Bioschemas markup and the EDAM ontology implementation is feasible, but currently not straightforward. B. This data model represents the data objects and links linking training and software tools as well as EDAM with Bioschemas links. It summarises information that can be linked in an interoperable way between bio.tools and TeSS, using EDAM and Bioschemas/Schema.org.](./Figures_report/Figure1AB.png){width=100%}
+![A. Connecting events and tools from TeSS and bio.tools via Bioschemas markup and the EDAM ontology implementation is feasible, but currently not straightforward. B. This data model represents the data objects and links linking training and software tools as well as EDAM with Bioschemas links. It summarises information that can be linked in an interoperable way between bio.tools and TeSS, using EDAM and Bioschemas/Schema.org.](./Figures_report/Figure1AB.png){width=80%}
 
 
 Although the connection is functionally feasible, in practice it relies on the proper use of markup annotations, as recommended by the FAIR guiding principles. Specifically, it demands ongoing efforts to utilise, develop, and sustain a systems biology vocabulary within the EDAM ontology (developer-dependent), while also necessitating efforts to maximise the utilisation of markup annotations offered by Bioschemas (content maker-dependent).
