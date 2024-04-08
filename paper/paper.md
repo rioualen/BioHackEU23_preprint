@@ -99,7 +99,7 @@ We initiated the process by identifying specific use cases, spanning various sys
 
 Simultaneously, we implemented a data model utilising resources like EDAM, TeSS, and bio.tools. This allowed us to assess the availability and adequacy of metadata for representing and connecting different elements within the domain, such as events, materials, and software.
 
-Furthermore, we focused on identifying ontologies needed to properly describe SB resources, particularly refining the EDAM ontology and other specialised ontologies like the Systems Biology Ontology (SBO; http://biomodels.net/SBO/) and the The Mathematical Modelling Ontology (MAMO; http://identifiers.org/mamo). This ensured the provision of an accurate and consistent representation of the available information, thus strengthening the effectiveness of our approach.
+Furthermore, we focused on identifying ontologies needed to properly describe SB resources, particularly refining the EDAM ontology and other specialised ontologies like the Systems Biology Ontology (SBO; http://biomodels.net/SBO/) and the The Mathematical Modelling Ontology (MAMO; http://identifiers.org/MAMO/). This ensured the provision of an accurate and consistent representation of the available information, thus strengthening the effectiveness of our approach.
 
 Additionally, we conducted a thorough analysis to identify any existing gaps in platforms like TeSS and bio.tools. This analysis served to guide improvements to these platforms, enhancing their usability and relevance for users in the field of systems biology.
 
@@ -110,6 +110,7 @@ Additionally, we conducted a thorough analysis to identify any existing gaps in 
 
 ### 1. Definition of use cases
 
+We first aim to define use cases for this project, which will specify which features can be added or improved. In order to achieve this, we first selected a set of existing systems biology resources, both as training courses (Table 1) and software tools (Table 2). Additionally, a list of keywords commonly used by systems biology experts to query similar resources is listed (Table 3).
 
 **Table 1.** List of systems biology target events or courses.
 
@@ -147,7 +148,7 @@ Additionally, we conducted a thorough analysis to identify any existing gaps in 
 | open science      |
 | data heterogeneity |
 | dimensionality reduction |
-|  multi omics.     |
+|  multi-omics     |
 
 The different resources, to facilitate their access, should be properly searchable (using e.g. the keywords mentioned above), and linked in the ELIXIR resources (e.g. Training eSupport System (TeSS) [@citesAsAuthority:Beard_2020], the bio.tools registry [@citesAsAuthority:Ison_2019], EDAM Browser [@citesAsAuthority:brancotte2018reusable]). Figure 2 illustrates a proposition for these use cases, backed  by the data model described in the next section.
 
