@@ -219,6 +219,7 @@ In a wider fashion, the adoption of detailed markup annotation as recommended gu
 
 ## Discussion {#discussion}
 
+In addition to the various specific editions and additions listed above, a number of evolutions or new features could potentially facilitate the maintenance and curation of bioinformatics resources listed and described with systems and referentials such as bio.tools, TeSS, or EDAM.
 
 ### Content annotation  {#content-annotation}
 
@@ -226,7 +227,6 @@ In a wider fashion, the adoption of detailed markup annotation as recommended gu
 * Suggested terms should be manually confirmed/validated/corrected by the curator.
 * Additional terms can be provided manually by the curator.
 * Allow users to edit entries in TeSS ? (many events lack annotations)
-
 
 ### Content search {#content-search}
 
@@ -236,18 +236,9 @@ In a wider fashion, the adoption of detailed markup annotation as recommended gu
 
 ### Navigation across platforms  {#navigation-across-platforms}
 
-#### From bio.tools to TeSS {#from-bio-tools-to-tess}
-
-Enable browsing on found tools in bio.tools and provide links that will search with the same terms on TeSS (Figure 3A).
-
-#### From TeSS to bio.tools {#from-tess-to-bio-tools}
-
-Enable browsing on found materials in TeSS and provide links that will search with the same terms on bio.tools (Figure 3B).
-
-
-#### To other ontologies {#to-other-ontologies}
-
-Search linking to ontologies or semi-refill search to nearest terms (?)
+* From bio.tools to TeSS {#from-bio-tools-to-tess}, enable browsing on found tools in bio.tools and provide links that will search with the same terms on TeSS (Figure 3A).
+* From TeSS to bio.tools {#from-tess-to-bio-tools}, enable browsing on found materials in TeSS and provide links that will search with the same terms on bio.tools (Figure 3B).
+* To other ontologies {#to-other-ontologies}, enable search linking to ontologies or semi-refill search to nearest terms.
 
 ![A. From bio.tools to TeSS. B. From TeSS to bio.tools.](./Figures_report/Figure3AB.png){width=100%}
 
