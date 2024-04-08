@@ -217,7 +217,7 @@ The addition of these terms and annotations across the EDAM-bio.tools-TeSS ecosy
 In a wider fashion, the adoption of detailed markup annotation as recommended guidelines will contribute to a mutual enrichment among ELIXIR platforms as well as their content providers,  through bidirectional metadata scraping.
 
 
-## Discussion {#discussion}
+## Discussion: potential improvements to the ELIXIR infrastructure {#discussion}
 
 In addition to the various specific editions and additions listed above, a number of evolutions or new features could potentially facilitate the maintenance and curation of bioinformatics resources listed and described with systems and referentials such as bio.tools, TeSS, or EDAM.
 
