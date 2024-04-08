@@ -231,6 +231,10 @@ In addition to the various specific editions and additions listed above, a numbe
 
 Long-term goals include the extension the automated framework to other SB-related ELIXIR domains and services by adapting ontologies and exploring ontology mappings (e.g. between EDAM and SBO or MAMO), the annotation of SB-related products by a set of controlled and relational vocabularies, by using selected SB disciplines and related TeSS and bio.tools products (training events, training materials, computational, bioinformatics tools, databases, services), the integration of TeSS and bio.tools by extending TeSS’ Bioschemas parser, and finally, the exploration of a possible extension to other ELIXIR resources.
 
+## Supplementary data {#supplementary}
+
+The supplementary tables are provided with the preprint’s github repository (https://github.com/rioualen/BioHackEU23_preprint/).
+
 ## Acknowledgements {#acknowledgements}
 
 This work was performed during the ELIXIR BioHackathon Europe 2023 organised by ELIXIR in November 2023. This work was supported by [ELIXIR](https://elixir-europe.org), the research infrastructure for life science data. CR is part of the *Institut Français de Bioinformatique* (IFB, UAR 3601), funded by the *Programme d'Investissements d'Avenir* subsidised by the *Agence Nationale de la Recherche*, number ANR-11-INBS-0013.
