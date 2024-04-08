@@ -169,9 +169,9 @@ Following our curation of existing ontologies and keywords list, we were able to
 
 #### EDAM {#edam}
 
-First, we identified concepts from our keywords list that were already available in EDAM for the annotation of resources, and when relevant, added or edited relevant attributes. Then we identified terms to be added to the ontology, whether they are topics, operations, or data types, and their parents in the ontology, concise definition, URL, common synonyms, _etc._ (Table 3).
+First, we identified concepts from our keywords list that were already available in EDAM for the annotation of resources, and when relevant, added or edited relevant attributes. Then we identified terms to be added to the ontology, whether they are topics, operations, or data types, and their parents in the ontology, concise definition, URL, common synonyms, _etc._ (Table 4).
 
-**Table 3. ** Selection of keywords that may be used by a user to search for SB courses or training materials in TeSS, and their attributes. Those terms were added and/or annotated appropriately following our objectives and semantics model.
+**Table 4.** Selection of keywords that may be used by a user to search for SB courses or training materials in TeSS, and their attributes. Those terms were added and/or annotated appropriately following our objectives and semantics model.
 
 **TO DO: format table**
 
@@ -188,9 +188,9 @@ First, we identified concepts from our keywords list that were already available
 
 #### bio.tools {#bio-tools}
 
-Tools that were already available in the bio.tools registry were edited to include more accurate annotations of their related EDAM topics, operations, as well as data types when needed. Plus, a few tools were added to the registry (Table 4).
+Tools that were already available in the bio.tools registry were edited to include more accurate annotations of their related EDAM topics, operations, as well as data types when needed. Plus, a few tools were added to the registry (Table 5).
 
-**Table 4.** A selection of tools to be added or further annotated in bio.tools.
+**Table 5.** A selection of tools to be added or further annotated in bio.tools.
 
 | Tool      | bio.tools ID                              | Topic (EDAM) | Operation (EDAM)         |
 | - | --- | --- | --- |
@@ -201,14 +201,14 @@ Tools that were already available in the bio.tools registry were edited to inclu
 
 #### TeSS {#tess}
 
-Finally, we added (number?) new event entries in TeSS for SB-related courses, past or future (or recurring events). However, the existing entries could not be edited, though they lacked a number of annotations, such as EDAM terms or tools used/taught in those courses (Table 5).  
+Finally, we added (number?) new event entries in TeSS for SB-related courses, past or future (or recurring events). However, the existing entries could not be edited, though they lacked a number of annotations, such as EDAM terms or tools used/taught in those courses (Table 6).  
 
 | Type   | Event name                                                 | Terms                | Tools                    |
 | ------ | ---------------------------------------------------------- | -------------------- | ------------------------ |
 | Course | Systems biology: from large datasets to biological insight | …                    | …                        |
 | Course | Integrative analysis of multi-omics data                   | (EDAM tags) | (biotools tags) |
 
-**Table 5.** (from use cases) A new course was added to TeSS’ catalogue and properly annotated using relevant keywords and following the semantics model (see Figure 1B).
+**Table 6.** (from use cases) A new course was added to TeSS’ catalogue and properly annotated using relevant keywords and following the semantics model (see Figure 1B).
 
 The addition of these terms and annotations across the EDAM-bio.tools-TeSS ecosystem allows us to connect tools and courses through our semantic model, thus facilitating users’ search for appropriate courses and training material in the field of systems biology. As shown in Figure 2, the connection of events and tools .
 
